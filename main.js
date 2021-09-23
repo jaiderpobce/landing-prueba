@@ -18,7 +18,7 @@ App.prototype.processingButton = function(event) {
     const listWidth = slickList.offsetWidth;
 
     track.style.left == ""  ? leftPosition = track.style.left = 0 : leftPosition = parseFloat(track.style.left.slice(0, -2) * -1);
-
+    //track.style.left == ""  ? leftPosition = track.style.left = 0 : leftPosition = track.style.left = 0;
     btn.dataset.button == "button-prev" ? prevAction(leftPosition,slickWidth,track) : nextAction(leftPosition,trackWidth,listWidth,slickWidth,track)
 }
 

@@ -6,11 +6,11 @@ body{
     height: 100vh;
     width: 100%;
     align-items: center;
-    background: radial-gradient(circle, rgb(6, 4, 8) 0%, rgb(12, 4, 4) 110%);
+    background: radial-gradient(circle, rgb(7, 3, 12) 0%, rgb(12, 4, 4) 110%);
 }
 .menu1{
     
-    background: radial-gradient(circle, rgb(6, 4, 8) 0%, rgb(12, 4, 4) 110%);
+    background: radial-gradient(circle, rgb(214, 230, 238) 0%, rgb(12, 4, 4) 110%);
   
 }
 .menu1 a{
@@ -67,7 +67,7 @@ a{
 }
 .Carousel{
     margin-left: auto;
-    width: 100%;
+    width: 20%;
     margin: 0px 10px;
 }
 .Carousel h2{
@@ -88,7 +88,7 @@ a{
     align-items:center;
    
     width: fit-content;
-    height: 254px;
+    height: 300px;
     padding: 10px 0px;
     margin: 10px auto;
     max-width: 50vw;
