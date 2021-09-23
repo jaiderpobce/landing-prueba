@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
 
+    background: radial-gradient(circle, rgb(7, 3, 10) 0%, rgb(12, 4, 4) 110%);
+}
 
 h2{
     text-align: center;
